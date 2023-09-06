@@ -8,8 +8,6 @@
 #include <string.h>
 #include <errno.h>
 
-#define ERROR_MSG(...) fprintf(stderr, __VA_ARGS__)
-
 void check_elf(unsigned char *e_ident);
 void print_magic(unsigned char *e_ident);
 void print_class(unsigned char *e_ident);
