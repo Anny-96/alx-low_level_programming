@@ -2,8 +2,12 @@
 #include <stdlib.h>
 
 /**
- * function that reads a text file 
- * and prints it to the POSIX standard output
+ * Read_txtfile- Read text file print to standard output.
+ * @filename: text file being read
+ * @letters: number of letters to be read
+ * Return: w- actual number of bytes read and printed
+ *        0 when function fails or filename is NULL.
+ */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
 	char *buf;
