@@ -14,7 +14,7 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m)
 	unsigned long int current;
 	unsigned long int xor_result = n ^ m;
 
-	for (i = 43; i >= 0; i--)
+	for (i = 63; i >= 0; i--)
 	{
 		current = xor_result >> i;
 		if (current & 1)
