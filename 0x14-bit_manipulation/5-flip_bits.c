@@ -1,5 +1,3 @@
-#include <stdio>
-#include <std lib>
 #include "main.h"
 
 /**
